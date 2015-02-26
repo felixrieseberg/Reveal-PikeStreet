@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Open Sourcing the User Experience for the IoT</title>
+
+		<meta name="description" content="A Microsoft theme for the amazing reveal.js">
+		<meta name="author" content="Felix Rieseberg">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/pikestreet.css" id="theme">
+
+		<!-- Code syntax highlighting - also available: visualstudio.css & zenburn.css -->
+		<link rel="stylesheet" href="lib/css/github.css">
+
+		<!-- Icons -->
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal pikestreet">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section data-background-video="https://compass-ssl.surface.com/assets/11/4e/114ea758-b2b9-4567-bedd-77086c3d80fb.mp4?n=vid-loop-100314.mp4">
+					<div class="accent">
+						<h2>Reveal.js Theme</h2>
+						<h1 class="accent">Pike Street</h1>
+					</div>
+					<small>Felix Rieseberg<br />Open Source Engineer, Microsoft</small>
+				</section>
+
+				<section class="inverse">
+					<h1>Icons</h1>
+					<div class="icon-group">
+						<i class="fa fa-user fa-fw"></i>
+						<i class="fa fa-users fa-fw"></i>
+						<i class="fa fa-university fa-fw"></i>
+					</div>
+					<p><a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a> is included, so go ahead and use some icons!</p>
+				</section>
+
+				<section data-background="assets/patternbg.png" data-background-size="700px" data-background-repeat="repeat">
+					<section>
+						<h1>Patterns & Fragments</h1>
+						<h1 class="alt">Moving Parts</h1>
+						<br />
+						<h3>
+							<span class="fragment fade-in"><i class="fa fa-rocket"></i> Hardware</span>
+							<span class="fragment fade-in"><i class="fa fa-mobile"></i> Software</span>
+							<span class="fragment fade-in"><i class="fa fa-cloud"></i> Data</span>
+							<span class="fragment fade-in"><i class="fa fa-lock"></i> Security</span>
+						</h3>
+					</section>
+				</section>
+
+				<!-- Example of nested vertical slides -->
+				<section>
+					<section>
+						<h2>Vertical Slides</h2>
+						<p>Slides can be nested inside of each other.</p>
+						<p>Use the <em>Space</em> key to navigate through all slides.</p>
+						<br>
+						<i class="fa fa-arrow-down fa-4x"></i>
+					</section>
+					<section>
+						<h2>Basement Level 1</h2>
+						<p>Nested slides are useful for adding additional detail underneath a high level horizontal slide.</p>
+					</section>
+					<section>
+						<h2>Basement Level 2</h2>
+						<p>That's it, time to go back up.</p>
+						<br>
+						<i class="fa fa-arrow-up fa-4x"></i>
+					</section>
+				</section>
+
+				<!-- Example for Fragment Styles -->
+				<section>
+					<section id="fragments">
+						<h2>Fragments</h2>
+						<p>Hit the next arrow...</p>
+						<p class="fragment">... to step through ...</p>
+						<p><span class="fragment">... a</span> <span class="fragment">fragmented</span> <span class="fragment">slide.</span></p>
+
+						<aside class="notes">
+							This slide has fragments which are also stepped through in the notes window.
+						</aside>
+					</section>
+					<section>
+						<h2>Fragment Styles</h2>
+						<p>There's different types of fragments, like:</p>
+						<p class="fragment grow">grow</p>
+						<p class="fragment shrink">shrink</p>
+						<p class="fragment roll-in">roll-in</p>
+						<p class="fragment fade-out">fade-out</p>
+						<p class="fragment current-visible">current-visible</p>
+						<p class="fragment highlight-red">highlight-red</p>
+						<p class="fragment highlight-blue">highlight-blue</p>
+					</section>
+				</section>
+
+				<!-- Example for pretty code -->
+				<section>
+					<h2>Highlighted, Editable Code!</h2>
+					<pre><code data-trim contenteditable>
+function linkify( selector ) {
+  if( supports3DTransforms ) {
+
+    var nodes = document.querySelectorAll( selector );
+
+    for( var i = 0, len = nodes.length; i &lt; len; i++ ) {
+      var node = nodes[i];
+
+      if( !node.className ) {
+        node.className += ' roll';
+      }
+    }
+  }
+}
+					</code></pre>
+					<p>Code syntax highlighting courtesy of <a href="http://softwaremaniacs.org/soft/highlight/en/description/">highlight.js</a>.</p>
+				</section>
+
+				<section>
+					<h2>Code Editors</h2>
+					<p>The beauty of HTML5 & JavaScript: Embed whatever you want, including code editors like JSBin.</p>
+					<a class="jsbin-embed" href="http://jsbin.com/kutobaqobu/2/embed?js,console">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script>
+				</section>
+
+				<section>
+					<h2>Marvelous List</h2>
+					<ul>
+						<li>No order here</li>
+						<li>Or here</li>
+						<li>Or here</li>
+						<li>Or here</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Fantastic Ordered List</h2>
+					<ol>
+						<li>One is smaller than...</li>
+						<li>Two is smaller than...</li>
+						<li>Three!</li>
+					</ol>
+				</section>
+
+				<section>
+					<h2>Tabular Tables</h2>
+					<table>
+						<thead>
+							<tr>
+								<th>Item</th>
+								<th>Value</th>
+								<th>Quantity</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Apples</td>
+								<td>$1</td>
+								<td>7</td>
+							<tr>
+							<tr>
+								<td>Lemonade</td>
+								<td>$2</td>
+								<td>18</td>
+							<tr>
+							<tr>
+								<td>Bread</td>
+								<td>$3</td>
+								<td>2</td>
+							<tr>
+						</tbody>
+					</table>
+				</section>
+
+				<section>
+					<h2>Intergalactic Interconnections</h2>
+					<p>
+						You can link between slides internally,
+						<a href="#/2/3">like this</a>.
+					</p>
+				</section>
+
+				<section>
+					<h2>Speaker View</h2>
+					<p>There's a speaker view. It includes a timer, preview of the upcoming slide as well as your speaker notes.</p>
+					<p>Press the <em>S</em> key to try it out.</p>
+
+					<aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+					</aside>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+		<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+		<script src="js/pikestreet.js"></script>
+	</body>
+</html>

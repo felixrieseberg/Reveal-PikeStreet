@@ -43,6 +43,9 @@ section.has-light-background, section.has-light-background h1, section.has-light
   border: 0;
   box-shadow: none; }
 
+.reveal.pikestreet a {
+  text-decoration: underline; }
+
 .reveal h1.alt, .reveal h2.alt, .reveal h3.alt, .reveal h4.alt {
   font-family: 'Pacifico';
   font-weight: bolder;
@@ -74,6 +77,10 @@ div.icon-group {
   word-wrap: normal;
   background: #fff;
   color: #333; }
+
+.reveal pre code::selection {
+  color: #333;
+  background: #DDF7FF; }
 
 body > div > div.backgrounds > div.slide-background.present > video {
   position: fixed;

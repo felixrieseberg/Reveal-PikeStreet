@@ -1,12 +1,15 @@
 # 'Pike Street' Theme for Reveal.js
 This is a fancy Microsoft theme for Reveal.js. It's mostly used by Microsoft DX's Open Source Engineers, but we wouldn't exactly be great open source engineers if we didn't let you use our theme. We think it looks pretty good. Especially cool: Video backgrounds! Live Code Editors! This repo already contains reveal.js, mostly because we're lazy. **You can see an example presentation [here](http://felixrieseberg.github.io/Reveal-PikeStreet/#/).**
 
+The theme uses Segoe UI and Segoe UI Light, falling back to the very similar Open Sans if these fonts aren't available. If you want to make things interesting, the theme also supports an 'accent' script font (which isn't used unless explicitly specified).
+
 ![Screenshot](https://raw.githubusercontent.com/felixrieseberg/Reveal-PikeStreet/gh-pages/screens/screen1.png) ![Screenshot](https://raw.githubusercontent.com/felixrieseberg/Reveal-PikeStreet/gh-pages/screens/screen2.png)
 
 * [Markdown](#markdown)
 * [Stock Pictures & Patterns](#stock-pictures)
 * [Code Highlighter & Editor](#codeedit)
 * [Speaker Notes](#speaker-notes)
+* [Disabling the Controls](#disabling-the-controls)
 
 ## Features and Hints
 
@@ -84,6 +87,9 @@ Here is some content...
 Note:
 This will only display in the notes window.
 ```
+
+### Disabling the Controls
+Go into `js/pikestreet.js` and set `controls` to `false` (line 5).
 
 ## Development
 On Unix systems, simply calling `npm install` installs all required development dependencies to mess with the code (more information can be found at [reveal.js](https://github.com/hakimel/reveal.js/#installation). On Windows, installation is made a bit more difficult - one of the required modules, `node-sass`, requires compilation with Visual Studio 2013. Install Visual Studio 2013 and run `npm install --msvs_version=2013`.

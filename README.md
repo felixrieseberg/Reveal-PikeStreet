@@ -5,6 +5,8 @@ The theme uses Segoe UI and Segoe UI Light, falling back to the very similar Ope
 
 ![Screenshot](https://raw.githubusercontent.com/felixrieseberg/Reveal-PikeStreet/gh-pages/screens/screen1.png) ![Screenshot](https://raw.githubusercontent.com/felixrieseberg/Reveal-PikeStreet/gh-pages/screens/screen2.png)
 
+**To get started, just open up `index.html` and edit the slides. Every `<section>` is a slide.**
+
 * [Markdown](#markdown)
 * [Stock Pictures & Patterns](#stock-pictures)
 * [Code Highlighter & Editor](#codeedit)
